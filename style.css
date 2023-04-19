@@ -1,0 +1,48 @@
+/* 1 rem = 16px */
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(32, 32, 115);
+}
+
+h3 {
+  margin-left: 3rem;
+}
+
+form {
+  width: 25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 3rem;
+  margin-left: 1rem;
+  background-color: #f8f7ff;
+}
+
+.input-form {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid #4361ee;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  background-color: #4361ee;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid #4361ee;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+.display-section {
+  display: none;
+  width: 25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 3rem;
+  margin-left: 1rem;
+  background-color: #f8f7ff;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create XML document</title>
+</head>
+
+<body>
+    <h3>Create XML document</h3>
+    <form action="" id="form">
+        <label for="name" class="label-form">Name:</label><br>
+        <input type="text" id="name" class="input-form" placeholder="Robert Jones" required><br><br>
+
+        <label for="mail" class="label-form">Email:</label><br>
+        <input type="email" id="mail" class="input-form" placeholder="sam@mail.com" required><br><br>
+
+        <label for="address" class="label-form">Address:</label><br>
+        <input type="text" id="address" class="input-form" name="user-address" placeholder="72 Portland St"
+            required><br><br>
+
+        <label for="msg" class="label-form">Message:</label><br>
+        <textarea name="user-message" id="msg" class="input-form" placeholder="Type a message..."
+            required></textarea><br><br><br>
+
+        <button type="submit" id="submit" class="btn-submit">Submit</button>
+        <p id="invalid-msg"></p>
+    </form>
+
+    <section class="display-section">
+        <p class="xml-data"></p>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
